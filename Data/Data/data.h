@@ -39,15 +39,17 @@ public:
 	bool operator>(const Date& d);
 	// 运算符重载<=
 	bool operator<=(const Date& d);
-	// 运算符重载<
-	bool operator<(const Date& d);
 	// 运算符重载>=
 	bool operator>=(const Date& d);
+	// 运算符重载<
+	bool operator<(const Date& d);
 	// 运算符重载==
 	bool operator==(const Date& d);
 	// 运算符重载!=
 	bool operator!=(const Date& d);
-	// 析构函数
+	// 运算符重载日期-日期
+	int operator-(const Date& d);
+	// 析构函数(日期类不用写)
 	// ~Date();
 
 private:
