@@ -4,6 +4,6 @@
 
 int main()
 {
-	minnow::test_string7();
+	minnow::test_string6();
 	return 0;
 }

@@ -570,16 +570,16 @@ namespace minnow
 	void test_string6()
 	{
 		string s1("hello world");
-		string s2;
-		//string s3;
+		string s2(s1);
+		string s3;
 
-		s2 = s1;
+		cout << s1 << endl;
 
 		cout << s2 << endl;
-		cout << s2.substr(5) << endl;
 
-		//cin >> s3;
-		//cout << s3 << endl;
+		s3 = s2;
+
+		cout << s3 << endl;
 	}
 
 	void test_string7()
